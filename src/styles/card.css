@@ -1,7 +1,7 @@
 .card-container {
     width: 75%;
     height: 700px;
-/*     background: linear-gradient(35deg ,yellow, skyblue, skyblue); */
+    background: linear-gradient(135deg ,yellow, skyblue, skyblue);
     display: flex;
     flex-direction: column;
     justify-content: center;
