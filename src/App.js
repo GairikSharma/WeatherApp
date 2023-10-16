@@ -7,7 +7,7 @@ function App() {
   const dateOptions = { timeZone: 'UTC', month: 'long', day: 'numeric', year: 'numeric' };
 
   const dateFormatter = new Intl.DateTimeFormat('en-US', dateOptions);
-  const dateAsFormattedString = dateFormatter.format(new Date('2019-06-01T00:00:00.000+00:00'));
+  const dateAsFormattedString = dateFormatter.format(new Date());
 
 
   const current_date = dateAsFormattedString
