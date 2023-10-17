@@ -2,19 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Exo', sans-serif;
-  font-family: 'Indie Flower', cursive;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Noto Serif Display', serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Poppins', sans-serif;
-  font-family: 'Qahiri', sans-serif;
-  font-family: 'Quicksand', sans-serif;
+  font-family: "Exo", sans-serif;
+  font-family: "Indie Flower", cursive;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Serif Display", serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Qahiri", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
-body{
+body {
   width: 100%;
 }
-@import url('https://fonts.googleapis.com/css2?family=Exo&family=Indie+Flower&family=Montserrat:wght@300&family=Noto+Serif+Display:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Qahiri&family=Quicksand&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Exo&family=Indie+Flower&family=Montserrat:wght@300&family=Noto+Serif+Display:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Qahiri&family=Quicksand&display=swap");
 .App {
   display: flex;
   flex-direction: column;
@@ -24,7 +24,7 @@ body{
   min-height: 100vh;
 }
 .App::after {
-  content: '';
+  content: "";
   width: 50%;
   height: 50%;
   border-radius: 50%;
@@ -52,7 +52,7 @@ button {
 }
 
 @media only screen and (max-width: 720px) {
-  .header{
+  .header {
     width: 100%;
   }
 }
