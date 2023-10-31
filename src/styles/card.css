@@ -79,7 +79,6 @@
   color: white;
   font-size: 30px;
 }
-
 .temperature {
     font-size: 60px !important;
 }
@@ -97,7 +96,6 @@
   flex-direction: column;
   justify-content: center;
   border-top: 1px solid white;
-  /* border-bottom: 1px solid white; */
 }
 .details {
   font-size: 18px;
