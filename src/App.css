@@ -2,55 +2,57 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Exo', sans-serif;
-  font-family: 'Indie Flower', cursive;
-  font-family: 'Montserrat', sans-serif;
-  font-family: 'Noto Serif Display', serif;
-  font-family: 'Open Sans', sans-serif;
   font-family: 'Poppins', sans-serif;
-  font-family: 'Qahiri', sans-serif;
-  font-family: 'Quicksand', sans-serif;
 }
 body{
   width: 100%;
+  height: 100vh;
 }
 @import url('https://fonts.googleapis.com/css2?family=Exo&family=Indie+Flower&family=Montserrat:wght@300&family=Noto+Serif+Display:wght@300&family=Open+Sans:wght@300&family=Poppins:wght@300&family=Qahiri&family=Quicksand&display=swap');
 .App {
+  height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  /* background-color: black; */
-  min-height: 100vh;
-}
-.App::after {
-  content: '';
-  width: 50%;
-  height: 50%;
-  border-radius: 50%;
-  background: white;
-  transform: translate(500px, 500px);
+  justify-content: flex-start;
+  align-items: flex-end;
+  background: #607d8b;
 }
 .header {
   display: flex;
   flex-direction: row;
-  gap: 10px;
-  margin: 5px;
-  width: 75%;
+  gap: 0px;
+  margin-bottom: 5px;
+  width: 35%;
+  background: transparent;
 }
-input {
+.form-control {
   width: 100%;
-  padding: 20px 16px;
-  border-radius: 10px;
-  border: 1px solid black;
+  border-top: none;
+  border-right: 3px solid rgb(255, 255, 255);
+  border-left: none;
+  border-bottom: 3px solid rgb(255, 255, 255);
+  background: transparent;
+  padding-left: 20px;
+  font-size: 18px;
+}
+.form-control:focus {
+  outline: none;
+}
+.form-control::placeholder {
+  color: white;
 }
 button {
   width: 20%;
   padding: 20px 16px;
-  border-radius: 10px;
   border-color: transparent;
+  background: #e1f5fe;
+  cursor: pointer;
 }
-
+.search-icon {
+  color: #607d8b;
+  font-size: 24px;
+  font-weight: 600;
+}
 @media only screen and (max-width: 720px) {
   .header{
     width: 100%;
