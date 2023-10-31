@@ -34,6 +34,7 @@ body{
   background: transparent;
   padding-left: 20px;
   font-size: 18px;
+  color: white;
 }
 .form-control:focus {
   outline: none;

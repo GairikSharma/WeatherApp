@@ -35,6 +35,7 @@ function Card({
                 <div style={{ color: "white", fontWeight: "600" }}>Max</div>
                 <p>{temp_max.temp_max}</p>
               </div>
+              
               <div className="upper-right-bottom">
                 <div style={{ color: "white", fontWeight: "600" }}>Min</div>
                 <p>{temp_min.temp_min}</p>
